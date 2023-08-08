@@ -12,7 +12,7 @@ const heading2 = React.createElement(
 const child = React.createElement("div", { id: "child" }, [heading1, heading2]);
 const parent = React.createElement("div", { id: "parent" }, child);
 
-console.log(parent);
+console.log("Hello" + parent);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
